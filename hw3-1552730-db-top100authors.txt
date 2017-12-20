@@ -1,0 +1,100 @@
+Divesh Srivastava
+Lei Chen 0002
+Samuel Madden
+Christian S. Jensen
+Gautam Das
+Jeffrey Xu Yu
+Beng Chin Ooi
+H. V. Jagadish
+Anastasia Ailamaki
+Jiawei Han 0001
+Xuemin Lin
+Wenfei Fan
+Dan Suciu
+Aditya G. Parameswaran
+Guoliang Li 0001
+Jignesh M. Patel
+Nikos Mamoulis
+Magdalena Balazinska
+Tova Milo
+Xin Luna Dong
+Donald Kossmann
+Divyakant Agrawal
+Joseph M. Hellerstein
+Mohamed F. Mokbel
+Michael J. Franklin
+Hector Garcia-Molina
+Lu Qin
+Surajit Chaudhuri
+Elke A. Rundensteiner
+Thomas Neumann 0001
+Kian-Lee Tan
+Amr El Abbadi
+Amol Deshpande
+Gao Cong
+Ihab F. Ilyas
+Tim Kraska
+Sihem Amer-Yahia
+Christoph Koch 0001
+Cong Yu 0001
+Gang Chen 0001
+Shivnath Babu
+Anthony K. H. Tung
+Xiaokui Xiao
+Gerhard Weikum
+Daniel Deutch
+Michael Benedikt
+Neoklis Polyzotis
+Badrish Chandramouli
+Saravanan Thirumuruganathan
+Michael Stonebraker
+Xifeng Yan
+Nan Zhang 0004
+Nick Koudas
+Yinghui Wu
+Philip S. Yu
+Ying Zhang 0001
+Reynold Cheng
+Jeffrey F. Naughton
+Volker Markl
+Eugene Wu 0002
+Jianhua Feng
+Jun Yang 0001
+Laks V. S. Lakshmanan
+Haixun Wang
+Ziyang Liu
+Jianzhong Li
+Minos N. Garofalakis
+Alon Y. Halevy
+Lijun Chang
+Jens Dittrich
+Yanlei Diao
+Stefan Manegold
+Martin L. Kersten
+David Maier 0001
+AnHai Doan
+Wenjie Zhang
+Paolo Papotti
+Bingsheng He
+Andrew Pavlo
+Raymond Chi-Wing Wong
+Yannis Velegrakis
+Yi Chen 0001
+Jonathan Goldstein
+Sourav S. Bhowmick
+Ashraf Aboulnaga
+Jiannan Wang
+James Cheng
+Panos Kalnis
+Mourad Ouzzani
+Ashwin Machanavajjhala
+Gustavo Alonso
+Graham Cormode
+Dong Deng
+Rubao Lee
+Alfons Kemper
+Vivek R. Narasayya
+Hong Cheng
+Daniel J. Abadi
+Xiaodong Zhang 0001
+Jian Pei

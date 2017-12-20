@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="file:///opt/current-spark/jars" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///opt/current-spark/jars" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-hdfs-2.7.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-common-2.7.3-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file:///opt/current-spark/jars" recursive="false" />
+    <jarDirectory url="file:///opt/current-spark/jars" recursive="false" type="SOURCES" />
+  </library>
+</component>
