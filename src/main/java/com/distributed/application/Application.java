@@ -1,9 +1,6 @@
-package com.xuantang.app;
+package com.distributed.application;
 
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.apache.spark.SparkConf;
-import org.apache.spark.SparkContext;
-import org.mortbay.io.Buffer;
 
 import java.io.*;
 
@@ -30,12 +27,11 @@ public class Application {
                         .replace("</www>", "</article>");
                 bufferedWriter.write(StringEscapeUtils.unescapeHtml4(line) + "\n");
                 long poc = index * 100 / 54139538;
-                if (poc != tag) {git 
+                if (poc != tag) {
                     tag = poc;
                     System.out.println("process: " + poc + "%");
                 }
                 index++;
-                //System.out.println(StringEscapeUtils.unescapeHtml4(str));
             }
 
             bufferedWriter.flush();

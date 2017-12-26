@@ -1,100 +1,100 @@
 Divesh Srivastava
-Lei Chen 0002
-Samuel Madden
-Christian S. Jensen
-Gautam Das
-Jeffrey Xu Yu
 Beng Chin Ooi
-H. V. Jagadish
-Anastasia Ailamaki
 Jiawei Han 0001
+Kian-Lee Tan
 Xuemin Lin
-Wenfei Fan
-Dan Suciu
-Aditya G. Parameswaran
+Surajit Chaudhuri
+Jeffrey Xu Yu
+Samuel Madden
+Lei Chen 0002
+Philip S. Yu
+Haixun Wang
+Elke A. Rundensteiner
+H. V. Jagadish
+Mohamed F. Mokbel
+Nick Koudas
+Jeffrey F. Naughton
+Gautam Das
+Christian S. Jensen
+Donald Kossmann
+Michael J. Franklin
+Anastasia Ailamaki
 Guoliang Li 0001
+Johannes Gehrke
 Jignesh M. Patel
+Divyakant Agrawal
+Anthony K. H. Tung
+Wolfgang Lehner
+Joseph M. Hellerstein
 Nikos Mamoulis
+Hector Garcia-Molina
+Amol Deshpande
+Ihab F. Ilyas
+Wenfei Fan
+Xiaokui Xiao
+Gustavo Alonso
+Amr El Abbadi
+Dan Suciu
+Yufei Tao
 Magdalena Balazinska
 Tova Milo
-Xin Luna Dong
-Donald Kossmann
-Divyakant Agrawal
-Joseph M. Hellerstein
-Mohamed F. Mokbel
-Michael J. Franklin
-Hector Garcia-Molina
-Lu Qin
-Surajit Chaudhuri
-Elke A. Rundensteiner
-Thomas Neumann 0001
-Kian-Lee Tan
-Amr El Abbadi
-Amol Deshpande
-Gao Cong
-Ihab F. Ilyas
-Tim Kraska
-Sihem Amer-Yahia
-Christoph Koch 0001
-Cong Yu 0001
-Gang Chen 0001
-Shivnath Babu
-Anthony K. H. Tung
-Xiaokui Xiao
-Gerhard Weikum
-Daniel Deutch
-Michael Benedikt
-Neoklis Polyzotis
-Badrish Chandramouli
-Saravanan Thirumuruganathan
-Michael Stonebraker
-Xifeng Yan
-Nan Zhang 0004
-Nick Koudas
-Yinghui Wu
-Philip S. Yu
-Ying Zhang 0001
-Reynold Cheng
-Jeffrey F. Naughton
-Volker Markl
-Eugene Wu 0002
-Jianhua Feng
 Jun Yang 0001
-Laks V. S. Lakshmanan
-Haixun Wang
-Ziyang Liu
-Jianzhong Li
-Minos N. Garofalakis
-Alon Y. Halevy
-Lijun Chang
-Jens Dittrich
-Yanlei Diao
-Stefan Manegold
-Martin L. Kersten
-David Maier 0001
-AnHai Doan
-Wenjie Zhang
-Paolo Papotti
-Bingsheng He
-Andrew Pavlo
-Raymond Chi-Wing Wong
-Yannis Velegrakis
-Yi Chen 0001
-Jonathan Goldstein
-Sourav S. Bhowmick
-Ashraf Aboulnaga
-Jiannan Wang
-James Cheng
-Panos Kalnis
-Mourad Ouzzani
-Ashwin Machanavajjhala
-Gustavo Alonso
-Graham Cormode
-Dong Deng
-Rubao Lee
-Alfons Kemper
-Vivek R. Narasayya
-Hong Cheng
-Daniel J. Abadi
-Xiaodong Zhang 0001
 Jian Pei
+Xiaofang Zhou
+Thomas Neumann 0001
+Shivnath Babu
+Xifeng Yan
+Laks V. S. Lakshmanan
+Volker Markl
+Alfons Kemper
+Tim Kraska
+Michael Stonebraker
+Christoph Koch 0001
+Christopher Ré
+Neoklis Polyzotis
+AnHai Doan
+Gao Cong
+Gerhard Weikum
+Raghu Ramakrishnan
+Feifei Li 0001
+Christos Faloutsos
+Minos N. Garofalakis
+Wenjie Zhang
+Graham Cormode
+Alon Y. Halevy
+Vivek R. Narasayya
+Jianhua Feng
+Sihem Amer-Yahia
+Renée J. Miller
+Walid G. Aref
+Carlo Zaniolo
+Jennifer Widom
+Ashraf Aboulnaga
+Lu Qin
+Wei Wang 0011
+Mourad Ouzzani
+Bin Cui 0001
+Ying Zhang 0001
+Dimitris Papadias
+M. Tamer Özsu
+Sourav S. Bhowmick
+Hans-Peter Kriegel
+Ugur Çetintemel
+Paolo Papotti
+Charu C. Aggarwal
+Cong Yu 0001
+Reynold Cheng
+Stanley B. Zdonik
+Jianzhong Li
+Stratos Idreos
+Kevin Chen-Chuan Chang
+Raghav Kaushik
+Juliana Freire
+Gang Chen 0001
+Xin Luna Dong
+Man Lung Yiu
+Panos K. Chrysanthis
+David Maier 0001
+Nan Tang 0001
+Flip Korn
+Ioana Manolescu

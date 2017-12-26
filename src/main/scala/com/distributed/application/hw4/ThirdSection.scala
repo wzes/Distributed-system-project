@@ -1,4 +1,4 @@
-package hw4
+package com.distributed.application.hw4
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
@@ -11,8 +11,9 @@ import org.apache.spark.{SparkConf, SparkContext}
   * @date on 12/26/17
   */
 object ThirdSection {
+  val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
   def main(args: Array[String]): Unit = {
-    val appName = "ApplicationTWO"
+    val appName = "ApplicationThree"
     val master = "local[*]"
     val conf = new SparkConf().setMaster(master).setAppName(appName)
     //val ssc = new StreamingContext(conf, Seconds(5))
@@ -33,7 +34,7 @@ object ThirdSection {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeCompute/dblp-out.xml")
+      .load(FILENAME)
 
     val AUTHORS = AUTHOR.split(",")
     val df1 = df.filter(df("year").isNotNull)

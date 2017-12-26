@@ -1,4 +1,4 @@
-package hw3
+package com.distributed.application.hw3
 
 import java.io.{File, FileWriter}
 
@@ -39,7 +39,7 @@ object Top100Author {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeCompute/dblp.xml")
+      .load("/d1/documents/DistributeCompute/dblp-out.xml")
 
     // gen sql
     val authors = df.filter(df("year") >= 2000 && (df("url").contains(FILTER_FIRST)
@@ -57,8 +57,8 @@ object Top100Author {
       .take(100)
 
     // write to file
-    new File("hw3-1552730-db-top100authors.txt").createNewFile()
-    val writer = new FileWriter("hw3-1552730-db-top100authors.txt", true)
+    new File("com.distributed.application.hw3-1552730-db-top100authors.txt").createNewFile()
+    val writer = new FileWriter("com.distributed.application.hw3-1552730-db-top100authors.txt", true)
     rdd1.foreach(author => writer.append(author._1).append("\n"))
     rdd1.foreach(author => println(author._1))
     writer.close()

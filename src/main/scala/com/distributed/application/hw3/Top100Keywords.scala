@@ -1,4 +1,4 @@
-package hw3
+package com.distributed.application.hw3
 
 import java.io.{File, FileWriter}
 
@@ -39,7 +39,7 @@ object Top100Keywords {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeCompute/dblp.xml")
+      .load("/d1/documents/DistributeCompute/dblp-out.xml")
 
     // gen sql
     val titles = df.filter(df("year") >= 2000 && (df("url").contains(FILTER_FIRST)
@@ -66,8 +66,8 @@ object Top100Keywords {
       .reduceByKey(_ + _).sortBy(_._2, ascending = false).take(100)
 
 
-    new File("hw3-1552730-db-top100keywords.txt").createNewFile()
-    val writer = new FileWriter("hw3-1552730-db-top100keywords.txt", true)
+    new File("com.distributed.application.hw3-1552730-db-top100keywords.txt").createNewFile()
+    val writer = new FileWriter("com.distributed.application.hw3-1552730-db-top100keywords.txt", true)
     rdd2.foreach(author => writer.append(author._1).append("\n"))
     rdd2.foreach(author => println(author._1))
     writer.close()
