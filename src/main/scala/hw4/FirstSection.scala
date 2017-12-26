@@ -33,20 +33,18 @@ object FirstSection {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeComputer/dblp-test.xml")
+      .load("/d1/documents/DistributeCompute/dblp-out.xml")
 
     val titles = df.filter(df("author").cast(StringType).contains(author))
       .filter(df("year").isNotNull).orderBy(-df("year")).select("title")
     //
-    val rdd: RDD[Row] = titles.toJavaRDD.rdd
-    val rdd1 = rdd.map(line => line(0))
+    //println(titles.count())
 
     // stdout
     println(titles.count())
     titles.foreach(row => {
       println(row(0).toString)
     })
-    rdd1.collect()
     //ssc.start()             // Start the computation
     //ssc.awaitTermination()  // Wait for the computation to terminate
   }

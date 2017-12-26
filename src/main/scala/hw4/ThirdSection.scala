@@ -33,7 +33,7 @@ object ThirdSection {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeComputer/dblp.xml")
+      .load("/d1/documents/DistributeCompute/dblp-out.xml")
 
     val AUTHORS = AUTHOR.split(",")
     val df1 = df.filter(df("year").isNotNull)

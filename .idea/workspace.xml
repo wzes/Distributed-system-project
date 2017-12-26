@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745dfa81-e8a8-428a-9523-d0dcd97a5094" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100Author$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100Author.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100Keywords$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100Keywords.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuantang/app/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/xuantang/app/Application.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +28,7 @@
       <file leaf-file-name="hw3-1552730-db-top100authors.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw3-1552730-db-top100authors.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1974">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -29,11 +38,21 @@
       <file leaf-file-name="FirstSection.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="-184">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#13#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,8 +70,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="46">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -61,8 +80,8 @@
       <file leaf-file-name="SecondSection.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="597">
+              <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="e#13#44#0" expanded="true" />
               </folding>
@@ -83,8 +102,8 @@
       <file leaf-file-name="ThirdSection.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="-139">
+              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -144,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/HDFSHelper.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HDFSOperator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Mulipilier.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaApplication.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkSQLTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkSQLBooksTest.scala" />
@@ -164,13 +182,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/SecondSecond.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SecondSection.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hw4/ThridSection.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hw3/Top100Keywords.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hw3/Top100Author.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -297,6 +316,47 @@
               <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hw4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DC-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -339,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CooperateThirdAuthor">
+  <component name="RunManager" selected="Application.FirstSection">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -347,9 +407,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CooperateAuthor" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="hw4.FirstSection" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xuantang.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.xuantang.app.Application" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -375,7 +440,35 @@
       <module name="DC-HW3" />
       <envs />
     </configuration>
-    <configuration name="CooperateThirdAuthor" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FirstSection" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="hw4.FirstSection" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk1.8.0_144/jre" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DC-HW3" />
+      <envs />
+    </configuration>
+    <configuration name="SecondSection" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="hw4.SecondSection" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk1.8.0_144/jre" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DC-HW3" />
+      <envs />
+    </configuration>
+    <configuration name="ThirdSection" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="hw4.ThirdSection" />
       <option name="VM_PARAMETERS" value="" />
@@ -392,20 +485,6 @@
     <configuration name="Top100Author" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="hw3.Top100Author" />
-      <option name="VM_PARAMETERS" value="-Xmx3g" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk1.8.0_144/jre" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DC-HW3" />
-      <envs />
-    </configuration>
-    <configuration name="Top100Keywords" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="hw3.Top100Keywords" />
       <option name="VM_PARAMETERS" value="-Xmx3g" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -505,18 +584,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Top100Author" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Top100Keywords" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CooperateAuthor" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CooperateSecondAuthor" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CooperateThirdAuthor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FirstSection" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SecondSection" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ThirdSection" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CooperateThirdAuthor" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CooperateSecondAuthor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CooperateAuthor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Top100Author" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Top100Keywords" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FirstSection" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SecondSection" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ThirdSection" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Top100Author" />
       </list>
     </recent_temporary>
   </component>
@@ -559,12 +638,12 @@
       <workItem from="1513748557825" duration="1836000" />
       <workItem from="1513752391551" duration="558000" />
       <workItem from="1514252594718" duration="3243000" />
-      <workItem from="1514260439019" duration="28121000" />
+      <workItem from="1514260439019" duration="33716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72908000" />
+    <option name="totallyTimeSpent" value="78503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,19 +715,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///opt/current-spark/jars/jackson-core-2.6.5.jar!/com/fasterxml/jackson/core/JsonFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="379" column="0" lean-forward="false" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
-          <folding>
-            <element signature="e#6648#6649#0" expanded="true" />
-            <element signature="e#6713#6714#0" expanded="true" />
-            <element signature="e#21578#21579#0" expanded="true" />
-            <element signature="e#21628#21629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/current-spark/jars/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/DatabindContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1038,34 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top100Author.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1974">
@@ -1075,14 +1113,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3-1552730-db-top100authors.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1106,10 +1136,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw3-1552730-db-top100authors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1974">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding>
+            <element signature="e#13#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="46">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>

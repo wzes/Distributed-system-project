@@ -1,14 +1,52 @@
 package com.xuantang.app;
 
+import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
+import org.mortbay.io.Buffer;
+
+import java.io.*;
 
 public class Application {
 
+    // You must be do with the xml data
     public static void main(String[] args) {
-        SparkConf conf = new SparkConf().setAppName("Application").setMaster("local[2]");
-        SparkContext sc = new SparkContext(conf);
+        File inFile = new File("/d1/documents/DistributeCompute/dblp.xml");
+        File outFile = new File("/d1/documents/DistributeCompute/dblp-out.xml");
 
-        sc.stop();
+        try {
+            FileReader fileReader = new FileReader(inFile);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            outFile.createNewFile();
+            FileWriter fileWriter = new FileWriter(outFile);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            String str;
+            long index = 0;
+            long tag = index;
+            while ((str = bufferedReader.readLine()) != null) {
+                String line = str.replace("inproceedings", "article")
+                        .replace("<www>", "<article>")
+                        .replace("</www>", "</article>");
+                bufferedWriter.write(StringEscapeUtils.unescapeHtml4(line) + "\n");
+                long poc = index * 100 / 54139538;
+                if (poc != tag) {
+                    tag = poc;
+                    System.out.println("process: " + poc + "%");
+                }
+                index++;
+                //System.out.println(StringEscapeUtils.unescapeHtml4(str));
+            }
+
+            bufferedWriter.flush();
+            fileReader.close();
+            fileWriter.close();
+            bufferedReader.close();
+            bufferedWriter.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

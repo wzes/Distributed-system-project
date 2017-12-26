@@ -33,7 +33,7 @@ object SecondSection {
       .format("com.databricks.spark.xml")
       .option("rowTag", "article")
       .schema(customSchema)
-      .load("/d1/documents/DistributeComputer/dblp-test.xml")
+      .load("/d1/documents/DistributeCompute/dblp-out.xml")
 
     //df.show()
 
