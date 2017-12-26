@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+spark-warehouse/
+src/main/resources/
+src/test/
+target/generated-sources/
+target/classes/CooperateAuthor$.class
+target/classes/CooperateAuthor.class
+target/classes/CooperateSecondAuthor$.class
+target/classes/CooperateSecondAuthor.class
+target/classes/CooperateThirdAuthor$.class
+target/classes/CooperateThirdAuthor.class
