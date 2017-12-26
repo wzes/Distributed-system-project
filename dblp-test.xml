@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+<article mdate="2017-05-28" key="journals/acta/Saxena96">
+<author>Sanjeev Saxena</author>
+<title>Parallel Integer Sorting and Simulation Amongst CRCW Models.</title>
+<pages>607-619</pages>
+<year>1996</year>
+<volume>33</volume>
+<journal>Acta Inf.</journal>
+<number>7</number>
+<url>db/journals/acta/acta33.html#Saxena96</url>
+<ee>https://doi.org/10.1007/BF03036466</ee>
+</article><article mdate="2017-05-28" key="journals/acta/Simon83">
+<author>Hans Ulrich Simon</author>
+<title>Pattern Matching in Trees and Nets.</title>
+<pages>227-248</pages>
+<year>1983</year>
+<volume>20</volume>
+<journal>Acta Inf.</journal>
+<url>db/journals/acta/acta20.html#Simon83</url>
+<ee>https://doi.org/10.1007/BF01257084</ee>
+</article><article mdate="2017-05-28" key="journals/acta/GoodmanS83">
+<author>Nathan Goodman</author>
+<author>Oded Shmueli</author>
+<title>NP-complete Problems Simplified on Tree Schemas.</title>
+<pages>171-178</pages>
+<year>1983</year>
+<volume>20</volume>
+<journal>Acta Inf.</journal>
+<url>db/journals/acta/acta20.html#GoodmanS83</url>
+<ee>https://doi.org/10.1007/BF00289414</ee>
+</article><article mdate="2017-05-28" key="journals/acta/Blum82">
+<author>Norbert Blum</author>
+<title>On the Power of Chain Rules in Context Free Grammars.</title>
+<pages>425-433</pages>
+<year>1982</year>
+<volume>17</volume>
+<journal>Acta Inf.</journal>
+<url>db/journals/acta/acta17.html#Blum82</url>
+<ee>https://doi.org/10.1007/BF00264161</ee>
+</article><article mdate="2017-05-28" key="journals/acta/Schonhage77">
+<author>Arnold SchÜnhage</author>
+<title>Schnelle Multiplikation von Polynomen Über KÜrpern der Charakteristik 2.</title>
+<journal>Acta Inf.</journal>
+<volume>7</volume>
+<year>1977</year>
+<pages>395-398</pages>
+<url>db/journals/acta/acta7.html#Schonhage77</url>
+<ee>https://doi.org/10.1007/BF00289470</ee>
+</article><article mdate="2017-05-28" key="journals/acta/Honkala11">
+<author>Juha Honkala</author>
+<title>A characterization of rational D0L power series.</title>
+<pages>19-24</pages>
+<year>2011</year>
+<volume>48</volume>
+<journal>Acta Inf.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1007/s00236-010-0128-1</ee>
+<url>db/journals/acta/acta48.html#Honkala11</url>
+</article><article mdate="2017-05-28" key="journals/acta/HuangL87">
+<author>Chua-Huang Huang</author>
+<author>Christian Lengauer</author>
+<title>The Derivation of Systolic Implementations of Programs.</title>
+<pages>595-632</pages>
+<year>1987</year>
+<volume>24</volume>
+<journal>Acta Inf.</journal>
+<number>6</number>
+<url>db/journals/acta/acta24.html#HuangL87</url>
+<ee>https://doi.org/10.1007/BF00282618</ee>
+</article><article mdate="2017-05-28" key="journals/acta/FinkelC87">
+<author>Alain Finkel</author>
+<author>Annie Choquet</author>
+<title>Fifo Nets Without Order Deadlock.</title>
+<pages>15-36</pages>
+<year>1988</year>
+<volume>25</volume>
+<journal>Acta Inf.</journal>
+<number>1</number>
+<url>db/journals/acta/acta25.html#FinkelC87</url>
+<ee>https://doi.org/10.1007/BF00268843</ee>
+</article>
+<article mdate="2017-05-28" key="journals/acta/Biskup78">
+<author>Joachim Biskup</author>
+<title>On the Complementation Rule for Multivalued Dependencies in Database Relations.</title>
+<pages>297-305</pages>
+<year>1978</year>
+<volume>10</volume>
+<journal>Acta Inf.</journal>
+<url>db/journals/acta/acta10.html#Biskup78</url>
+<ee>https://doi.org/10.1007/BF00264322</ee>
+</article><article mdate="2017-05-28" key="journals/acta/BozapalidisFR12">
+<author>Symeon Bozapalidis</author>
+<author>Zoltán FÜlÖp 0001</author>
+<author>George Rahonis</author>
+<author>Wim H. Hesselink</author>
+<title>Equational weighted tree transformations.</title>
+<pages>29-52</pages>
+<year>2012</year>
+<volume>49</volume>
+<journal>Acta Inf.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1007/s00236-011-0148-5</ee>
+<url>db/journals/acta/acta49.html#BozapalidisFR12</url>
+</article><article mdate="2017-05-28" key="journals/acta/KhomenkoKKV06">
+<author>Victor Khomenko</author>
+<author>Alex Kondratyev</author>
+<author>Maciej Koutny</author>
+<author>Walter Vogler</author>
+<title>Merged processes: a new condensed representation of Petri net behaviour.</title>
+<pages>307-330</pages>
+<year>2006</year>
+<volume>43</volume>
+<journal>Acta Inf.</journal>
+<number>5</number>
+<ee>https://doi.org/10.1007/s00236-006-0023-y</ee>
+<url>db/journals/acta/acta43.html#KhomenkoKKV06</url>
+</article><article mdate="2017-05-28" key="journals/acta/Hesselink13">
+<author>Wim H. Hesselink</author>
+<title>Verifying a simplification of mutual exclusion by Lycklama-Hadzilacos.</title>
+<pages>199-228</pages>
+<year>2013</year>
+<volume>50</volume>
+<journal>Acta Inf.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1007/s00236-013-0178-2</ee>
+<url>db/journals/acta/acta50.html#Hesselink13</url>
+</article><article mdate="2017-05-28" key="journals/acta/Ronse83">
+<author>Christian Ronse</author>
+<title>A Three-Stage Construction for Multiconnection Networks.</title>
+<pages>197-206</pages>
+<year>1983</year>
+<volume>20</volume>
+<journal>Acta Inf.</journal>
+<url>db/journals/acta/acta20.html#Ronse83</url>
+<ee>https://doi.org/10.1007/BF00289416</ee>
+</article>
+</dplp>
