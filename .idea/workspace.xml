@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745dfa81-e8a8-428a-9523-d0dcd97a5094" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" afterPath="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Top100Author$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Top100Author.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Top100Keywords$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Top100Keywords.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuantang/app/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/xuantang/app/Application.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hw3-1552730-db-top100authors.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw3-1552730-db-top100authors.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,8 +39,8 @@
       <file leaf-file-name="FirstSection.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="-46">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#13#44#0" expanded="true" />
               </folding>
@@ -47,31 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Top100Keywords.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/hw3/Top100Keywords.scala">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jdk1.8.0_144/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="147">
+              <caret line="2237" column="18" lean-forward="false" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="184">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -119,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top100Author.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/top100Author.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1974">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/SparkSQLDBLPTest.scala" />
         <option value="$PROJECT_DIR$/topAuthor.txt" />
         <option value="$PROJECT_DIR$/dblp-test.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hw3-1552730-db-top100keywords.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/Top100Keywords.scala" />
         <option value="$PROJECT_DIR$/test.txt" />
@@ -187,9 +177,10 @@
         <option value="$PROJECT_DIR$/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hw4/SecondSection.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -399,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstSection">
+  <component name="RunManager" selected="Application.Application">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -591,8 +582,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FirstSection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FirstSection" />
         <item index="2" class="java.lang.String" itemvalue="Application.SecondSection" />
         <item index="3" class="java.lang.String" itemvalue="Application.ThirdSection" />
         <item index="4" class="java.lang.String" itemvalue="Application.Top100Author" />
@@ -638,12 +629,12 @@
       <workItem from="1513748557825" duration="1836000" />
       <workItem from="1513752391551" duration="558000" />
       <workItem from="1514252594718" duration="3243000" />
-      <workItem from="1514260439019" duration="33716000" />
+      <workItem from="1514260439019" duration="34790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78503000" />
+    <option name="totallyTimeSpent" value="79577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,22 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///opt/current-spark/jars/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/DatabindContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/current-spark/jars/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/ser/SerializerCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/current-spark/jars/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/util/TypeKey.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1144,13 +1119,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-139">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,26 +1145,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/ThirdSection.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/hw4/FirstSection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="-46">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="2237" column="18" lean-forward="false" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuantang/app/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="345">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
         </state>
       </provider>

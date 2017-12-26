@@ -13,7 +13,6 @@
         <scala.version>2.11.0</scala.version>
         <hadoop.version>2.9.0</hadoop.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.databricks</groupId>

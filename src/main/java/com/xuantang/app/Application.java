@@ -26,7 +26,7 @@ public class Application {
             long tag = index;
             while ((str = bufferedReader.readLine()) != null) {
                 String line = str.replace("inproceedings", "article")
-                        .replace("<www>", "<article>")
+                        .replace("<www", "<article")
                         .replace("</www>", "</article>");
                 bufferedWriter.write(StringEscapeUtils.unescapeHtml4(line) + "\n");
                 long poc = index * 100 / 54139538;
