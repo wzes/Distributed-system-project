@@ -30,7 +30,7 @@ public class Application {
                         .replace("</www>", "</article>");
                 bufferedWriter.write(StringEscapeUtils.unescapeHtml4(line) + "\n");
                 long poc = index * 100 / 54139538;
-                if (poc != tag) {
+                if (poc != tag) {git 
                     tag = poc;
                     System.out.println("process: " + poc + "%");
                 }
