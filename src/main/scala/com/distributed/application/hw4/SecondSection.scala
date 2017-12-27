@@ -3,6 +3,7 @@ package com.distributed.application.hw4
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -16,11 +17,15 @@ object SecondSection {
     val appName = "ApplicationTWO"
     val master = "local[*]"
     val conf = new SparkConf().setMaster(master).setAppName(appName)
-    //val ssc = new StreamingContext(conf, Seconds(5))
-    //val lines = ssc.socketTextStream("192.168.1.109", 9999)
+
+    val ssc = new StreamingContext(conf, Seconds(60))
+    val INPUT = ssc.socketTextStream("localhost", 9999).toString
+
     conf.set("spark.executor.memory", "8g")
     val sc = new SparkContext(conf)
-    val AUTHOR = "Wim H. Hesselink"
+    // input
+    // val INPUT = "author: Wim H. Hesselink"
+    val AUTHOR = INPUT.substring(INPUT.indexOf("author:") + 7).trim
 
     val sqlContext = new SQLContext(sc)
     // manually
@@ -61,7 +66,7 @@ object SecondSection {
       println(au._1._2 + ": " + au._2)
     })
 
-    //ssc.start()             // Start the computation
-    //ssc.awaitTermination()  // Wait for the computation to terminate
+    ssc.start()             // Start the computation
+    ssc.awaitTermination()  // Wait for the computation to terminate
   }
 }
