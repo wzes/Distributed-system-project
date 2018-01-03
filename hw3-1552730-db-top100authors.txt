@@ -2,10 +2,10 @@ Divesh Srivastava
 Beng Chin Ooi
 Jiawei Han 0001
 Kian-Lee Tan
-Xuemin Lin
 Surajit Chaudhuri
-Jeffrey Xu Yu
+Xuemin Lin
 Samuel Madden
+Jeffrey Xu Yu
 Lei Chen 0002
 Philip S. Yu
 Haixun Wang
@@ -16,85 +16,85 @@ Nick Koudas
 Jeffrey F. Naughton
 Gautam Das
 Christian S. Jensen
-Donald Kossmann
 Michael J. Franklin
+Donald Kossmann
 Anastasia Ailamaki
 Guoliang Li 0001
 Johannes Gehrke
 Jignesh M. Patel
-Divyakant Agrawal
 Anthony K. H. Tung
+Divyakant Agrawal
 Wolfgang Lehner
-Joseph M. Hellerstein
 Nikos Mamoulis
+Joseph M. Hellerstein
+Ihab F. Ilyas
 Hector Garcia-Molina
 Amol Deshpande
-Ihab F. Ilyas
 Wenfei Fan
 Xiaokui Xiao
-Gustavo Alonso
 Amr El Abbadi
-Dan Suciu
+Gustavo Alonso
+Tova Milo
 Yufei Tao
 Magdalena Balazinska
-Tova Milo
-Jun Yang 0001
+Dan Suciu
 Jian Pei
-Xiaofang Zhou
+Jun Yang 0001
 Thomas Neumann 0001
+Xiaofang Zhou
 Shivnath Babu
 Xifeng Yan
 Laks V. S. Lakshmanan
+Michael Stonebraker
 Volker Markl
 Alfons Kemper
 Tim Kraska
-Michael Stonebraker
 Christoph Koch 0001
 Christopher Ré
-Neoklis Polyzotis
+Gerhard Weikum
 AnHai Doan
 Gao Cong
-Gerhard Weikum
 Raghu Ramakrishnan
+Neoklis Polyzotis
 Feifei Li 0001
-Christos Faloutsos
 Minos N. Garofalakis
+Christos Faloutsos
 Wenjie Zhang
 Graham Cormode
 Alon Y. Halevy
 Vivek R. Narasayya
-Jianhua Feng
 Sihem Amer-Yahia
 Renée J. Miller
+Jianhua Feng
 Walid G. Aref
-Carlo Zaniolo
-Jennifer Widom
-Ashraf Aboulnaga
 Lu Qin
-Wei Wang 0011
+Carlo Zaniolo
+Ashraf Aboulnaga
+Jennifer Widom
 Mourad Ouzzani
 Bin Cui 0001
-Ying Zhang 0001
 Dimitris Papadias
-M. Tamer Özsu
-Sourav S. Bhowmick
+Wei Wang 0011
+Ying Zhang 0001
+Paolo Papotti
 Hans-Peter Kriegel
 Ugur Çetintemel
-Paolo Papotti
 Charu C. Aggarwal
+M. Tamer Özsu
+Sourav S. Bhowmick
 Cong Yu 0001
 Reynold Cheng
 Stanley B. Zdonik
-Jianzhong Li
+Juliana Freire
 Stratos Idreos
+Jianzhong Li
 Kevin Chen-Chuan Chang
 Raghav Kaushik
-Juliana Freire
+David Maier 0001
+Man Lung Yiu
+Nan Tang 0001
+Panos K. Chrysanthis
 Gang Chen 0001
 Xin Luna Dong
-Man Lung Yiu
-Panos K. Chrysanthis
-David Maier 0001
-Nan Tang 0001
-Flip Korn
-Ioana Manolescu
+Chen Li 0001
+Elisa Bertino
