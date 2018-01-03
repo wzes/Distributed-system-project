@@ -1,26 +1,24 @@
-package com.distributed.application.hw4
+package com.distributed.application
 
-import org.apache.log4j.{Level, Logger}
-import org.apache.spark.rdd.RDD
+import org.apache.spark.SparkConf
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SQLContext, SparkSession}
+import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   *
   * @author Create by xuantang
   * @date on 12/26/17
   */
-object SecondSectionV2 {
+object FirstSectionV2 {
   val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
 
-  val AppName = "User22Second"
+  val AppName = "User22First"
   val Master = "spark://148.100.92.156:4477"
   val Memory = "spark.executor.memory"
 
   def main(args: Array[String]): Unit = {
-    Logger.getLogger("org").setLevel(Level.ERROR)
+    //Logger.getLogger("org").setLevel(Level.ERROR)
     val conf = new SparkConf()
       .setAppName(AppName)
       .setMaster(Master)
@@ -32,36 +30,29 @@ object SecondSectionV2 {
       .getOrCreate()
 
     // Read data form parquet
-    val df = ss.read.parquet("file:///d1/documents/DistributeCompute/dblp-hw4-test.parquet")
+    val df = ss.read.parquet("file:///d1/documents/DistributeCompute/dblp-hw4.parquet")
 
     val rows: Array[Row] = df.collect()
 
     val ssc = new StreamingContext(conf, Seconds(1))
 
     val INPUT = ssc.socketTextStream("59.110.136.134", 10001)
+
     // user broadcast
     val broadcastDF = ssc.sparkContext.broadcast(rows)
 
     INPUT.foreachRDD(rdd =>
       rdd.foreach { line => {
-        // Get author
         val AUTHOR = line.substring(line.indexOf("author:") + 7).trim
-
-        // Filter
         val rows: Array[Row] = broadcastDF.value.filter(row => {
           if (row(1) != null) {
             row(1).toString.contains(AUTHOR)
           } else false
         })
-
-        val rows1 = rows.map(line => line(1).toString.replace("WrappedArray(", "").replace(")", ""))
-        val rows2 = rows1.flatMap(_.split(",")).filter(!_.contains(AUTHOR)).map(author => ((AUTHOR, author), 1))
-        val seq: Seq[((String, String), Int)] = rows2.groupBy(_._1).map(line => (line._1, line._2.length)).toSeq
-
-        // Output
-        println(seq.length)
-        seq.sortWith(_._2 > _._2).foreach(line => {
-          println(line._1._2 + " " + line._2)
+        println(rows.length)
+        val tuples: Array[(String, Int)] = rows.map(row => (row(0).toString, Integer.parseInt(row(2).toString)))
+        tuples.sortWith(_._2 > _._2).foreach(line => {
+          println(line._1 + " : " + line._2)
         })
       }
     })
@@ -80,9 +71,8 @@ object SecondSectionV2 {
     // manually
     val customSchema = StructType(Array(
       StructField("title", StringType, nullable = true),
-      StructField("author", ArrayType.apply(StringType), nullable = false),
+      StructField("author", ArrayType.apply(StringType), nullable = true),
       StructField("year", IntegerType, nullable = true)))
-
     // read
     val df = sqlContext.read
       .format("com.databricks.spark.xml")

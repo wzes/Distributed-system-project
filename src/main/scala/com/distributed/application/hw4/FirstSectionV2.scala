@@ -14,8 +14,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 object FirstSectionV2 {
   val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
 
-  val AppName = "ApplicationOne"
-  val Master = "local[*]"
+  val AppName = "User22First"
+  val Master = "spark://148.100.92.156:4477"
   val Memory = "spark.executor.memory"
 
   def main(args: Array[String]): Unit = {

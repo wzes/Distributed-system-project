@@ -57,8 +57,8 @@ object Top100Author {
       .take(100)
 
     // write to file
-    new File("com.distributed.application.hw3-1552730-db-top100authors.txt").createNewFile()
-    val writer = new FileWriter("com.distributed.application.hw3-1552730-db-top100authors.txt", true)
+    new File("hw3-1552730-db-top100authors.txt").createNewFile()
+    val writer = new FileWriter("hw3-1552730-db-top100authors.txt", true)
     rdd1.foreach(author => writer.append(author._1).append("\n"))
     rdd1.foreach(author => println(author._1))
     writer.close()

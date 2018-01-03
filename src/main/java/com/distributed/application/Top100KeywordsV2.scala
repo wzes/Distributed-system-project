@@ -1,11 +1,11 @@
-package com.distributed.application.hw3
+package com.distributed.application
 
 import java.io.{File, FileWriter}
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{SQLContext, SparkSession}
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types._
-import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   *
@@ -21,7 +21,7 @@ object Top100KeywordsV2 {
   val FILTER_FIFTH = "db/journal/acta"
 
   val AppName = "Top100Keywords"
-  val Master = "local[*]"
+  val Master = "spark://148.100.92.156:4477"
   val Memory = "spark.executor.memory"
 
 
@@ -102,13 +102,10 @@ object Top100KeywordsV2 {
 
   /**
     * Spark Shell Script
-    *
     * spark-shell --packages com.databricks:spark-xml_2.11:0.4.1 --master spark://148.100.92.156:4477
-    * import org.apache.spark.sql.{SQLContext, SparkSession}
     * import org.apache.spark.sql.SQLContext
     * import com.databricks.spark.xml._
     * val sqlContext = new SQLContext(sc)
-    * val sqlContext = SparkSession.builder().getOrCreate()
     * val df = sqlContext.read.format("com.databricks.spark.xml").option("rowTag", "article").load("dblp.xml")
     * val titles = df.filter(df("url").contains("db/journals/pvldb") || df("url").contains("db/conf/sigmod") || df("url").contains("db/conf/icde")).filter(df("year") >= 2000).select("title")
     * val rdd = titles.toJavaRDD.rdd

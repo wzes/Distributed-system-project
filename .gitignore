@@ -3,6 +3,7 @@ spark-warehouse/
 src/main/resources/
 src/test/
 target/
+out/
 target/classes/CooperateAuthor$.class
 target/classes/CooperateAuthor.class
 target/classes/CooperateSecondAuthor$.class

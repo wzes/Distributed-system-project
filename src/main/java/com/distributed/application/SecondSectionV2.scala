@@ -1,11 +1,10 @@
-package com.distributed.application.hw4
+package com.distributed.application
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.rdd.RDD
+import org.apache.spark.SparkConf
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SQLContext, SparkSession}
+import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   *
