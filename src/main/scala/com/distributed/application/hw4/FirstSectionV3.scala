@@ -93,10 +93,12 @@ object FirstSectionV3 {
   }
 
   /**
-    * spark-submit --master spark://148.100.92.156:4477 --num-executors 10 --driver-memory 2G --executor-memory 2G --packages com.databricks:spark-xml_2.11:0.4.1 --class com.distributed.application.hw4.FirstSectionV3 DC-HW4.jar dblp-hw4.parquet 59.110.136.134 10001
+    * //
     * spark-submit --master spark://148.100.92.156:4477 --num-executors 9 --driver-memory 3G --executor-memory 3G --packages com.databricks:spark-xml_2.11:0.4.1 --class com.distributed.application.hw4.SecondSectionV3 DC-HW4.jar 1 dblp-hw4.parquet 59.110.136.134 10001
+    * //
+    *
     * --driver-memory 2G
-    * --num-executors 100
+    * --num-executors 9
     * --executor-memory 6G
     * --executor-cores 4
     * --packages com.databricks:spark-xml_2.11:0.4.1

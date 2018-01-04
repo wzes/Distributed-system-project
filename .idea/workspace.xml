@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745dfa81-e8a8-428a-9523-d0dcd97a5094" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DC_HW3_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/DC_HW3_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DC-HW3.iml" afterPath="$PROJECT_DIR$/DC-HW3.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/application/FirstSectionV2.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/application/SecondSectionV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV3.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/application/ThirdSectionV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/application/Top100AuthorV2.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/application/Top100KeywordsV2.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100KeywordsV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100KeywordsV2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV2.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,8 +65,8 @@
       <file leaf-file-name="FirstSectionV3.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="96" column="6" lean-forward="false" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+            <state relative-caret-position="97">
+              <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -239,8 +224,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100KeywordsV2.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
       </list>
     </option>
   </component>
@@ -736,12 +721,12 @@
       <workItem from="1514971978496" duration="1994000" />
       <workItem from="1514975861732" duration="9000" />
       <workItem from="1515028184493" duration="17519000" />
-      <workItem from="1515050600702" duration="9632000" />
+      <workItem from="1515050600702" duration="10024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139673000" />
+    <option name="totallyTimeSpent" value="140065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1135,8 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="96" column="6" lean-forward="false" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        <state relative-caret-position="97">
+          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
           <folding>
             <element signature="e#41#80#0" expanded="true" />
           </folding>
