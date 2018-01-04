@@ -36,7 +36,7 @@ object ThirdSectionV2 {
 
     val rows: Array[Row] = df.collect()
 
-    val ssc = new StreamingContext(conf, Seconds(1))
+    val ssc = new StreamingContext(ss.sparkContext, Seconds(1))
 
     // clique: Wim H. Hesselink, Hans Ulrich Simon[2]
     val INPUT = ssc.socketTextStream("59.110.136.134", 10001)

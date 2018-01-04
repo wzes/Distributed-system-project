@@ -30,8 +30,6 @@ object Top100AuthorV2 {
     Logger.getLogger("org").setLevel(Level.ERROR)
     val conf = new SparkConf()
       .setAppName(AppName)
-      .setMaster(Master)
-      .set(Memory, "8g")
     val ss = SparkSession.builder
       .config(conf)
       .getOrCreate()
