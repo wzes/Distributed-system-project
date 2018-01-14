@@ -3,17 +3,18 @@ package com.distributed.application.hw3
 import java.io.{File, FileWriter}
 
 import org.apache.log4j.{Level, Logger}
+import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SQLContext, SparkSession}
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{Row, SparkSession}
 
 /**
   *
   * @author Create by xuantang
   * @date on 12/19/17
   */
-object Top100AuthorV2 {
+object Top100AuthorV3 {
 
   val FILTER_FIRST = "db/journals/pvldb"
   val FILTER_SECOND = "db/conf/sigmod"
@@ -28,6 +29,7 @@ object Top100AuthorV2 {
 
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
+    val start = System.currentTimeMillis()
     val conf = new SparkConf()
       .setAppName(AppName)
       .setMaster("local[*]")
@@ -41,27 +43,27 @@ object Top100AuthorV2 {
     // gen sql
     val authors = df.filter(df("year") >= 2000 && (df("url").contains(FILTER_FIRST)
       || df("url").contains(FILTER_SECOND) || df("url").contains(FILTER_THIRD)))
-      .select("author")
+      .select(explode(df("author")).as("author"))
 
     //authors.show()
     val rdd: RDD[Row] = authors.toJavaRDD.rdd
 
     //rdd.foreach(line => println(line))
 
-    val rdd1 = rdd.filter(line => line(0) != null).map(line => line(0).toString
-      .replace("WrappedArray(", "").replace(")", "")).flatMap(_.split(","))
-      .map(p => (p.trim, 1)).reduceByKey(_ + _).sortBy(_._2, ascending = false)
+    val rdd1 = rdd.map(p => (p.toString().trim, 1))
+      .reduceByKey(_ + _).sortBy(_._2, ascending = false)
 
     rdd1.cache()
 
     val rdd2 = rdd1.take(100)
-
     // write to file
     new File("hw3-1552730-db-top100authors.txt").createNewFile()
     val writer = new FileWriter("hw3-1552730-db-top100authors.txt", true)
-    rdd2.foreach(author => writer.append(author._1).append("\n"))
-    rdd2.foreach(author => println(author._1 + " : " + author._2))
+    rdd2.foreach(author => writer.append(author._1.substring(1, author._1.length - 1)).append(" : " + author._2).append("\n"))
+    rdd2.foreach(author => println(author._1.substring(1, author._1.length - 1) + " : " + author._2))
     writer.close()
+    val end = System.currentTimeMillis()
+    println(end - start + " ms")
   }
 
   def handleData(): Unit = {

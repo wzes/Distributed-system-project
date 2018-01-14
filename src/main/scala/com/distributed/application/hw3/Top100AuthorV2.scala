@@ -28,8 +28,10 @@ object Top100AuthorV2 {
 
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
+    val start = System.currentTimeMillis()
     val conf = new SparkConf()
       .setAppName(AppName)
+      .setMaster("local[*]")
     val ss = SparkSession.builder
       .config(conf)
       .getOrCreate()
@@ -58,9 +60,11 @@ object Top100AuthorV2 {
     // write to file
     new File("hw3-1552730-db-top100authors.txt").createNewFile()
     val writer = new FileWriter("hw3-1552730-db-top100authors.txt", true)
-    rdd2.foreach(author => writer.append(author._1).append("\n"))
+    rdd2.foreach(author => writer.append(author._1).append(" : " + author._2).append("\n"))
     rdd2.foreach(author => println(author._1 + " : " + author._2))
     writer.close()
+    val end = System.currentTimeMillis()
+    println(end - start + " ms")
   }
 
   def handleData(): Unit = {

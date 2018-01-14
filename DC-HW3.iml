@@ -14,6 +14,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jars" level="project" />
     <orderEntry type="library" name="current-scala" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.11.0" level="application" />
     <orderEntry type="library" name="Maven: com.databricks:spark-xml_2.11:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.10:2.2.0" level="project" />
@@ -159,6 +160,5 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xbean:xbean-asm5-shaded:4.4" level="project" />
     <orderEntry type="library" name="Maven: org.spark-project.spark:unused:1.0.0" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.11.0" level="application" />
   </component>
 </module>

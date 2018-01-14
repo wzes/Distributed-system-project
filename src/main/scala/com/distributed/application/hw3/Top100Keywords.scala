@@ -40,10 +40,10 @@ object Top100Keywords {
       .option("rowTag", "article")
       .schema(customSchema)
       .load("/d1/documents/DistributeCompute/dblp-out.xml")
-
+    val conferences = Array("db/journals/pvldb", "db/conf/sigmod", "db/conf/icde")
     // gen sql
-    val titles = df.filter(df("year") >= 2000 && (df("url").contains(FILTER_FIRST)
-      || df("url").contains(FILTER_SECOND) || df("url").contains(FILTER_THIRD)))
+    val titles = df.filter(df("year") >= 2000 &&
+      conferences.map(x => df("url").contains(x)).reduceLeft(_ || _))
       .select("title")
 
     // to rdd
