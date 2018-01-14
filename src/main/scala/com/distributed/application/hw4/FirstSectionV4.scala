@@ -15,7 +15,7 @@ object FirstSectionV4 {
   val FILENAME = "dblp-out.xml"
 
   val AppName = "User22First"
-  val Master = "local[32]"
+  val Master = "local[*]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
   val NumExecutors = "10"
@@ -63,7 +63,7 @@ object FirstSectionV4 {
 
         val df1 = df.filter(row =>
           if (row(1) != null) {
-            row(1).toString.contains(AUTHOR)
+            row(1).toString.toLowerCase.contains(AUTHOR.toLowerCase)
           } else false
         ).orderBy(-df("year")).select("title")
         df1.cache()
@@ -76,27 +76,6 @@ object FirstSectionV4 {
     })
     ssc.start()             // Start the computation
     ssc.awaitTermination()  // Wait for the computation to terminate
-  }
-
-  def handleData(): Unit = {
-    val conf = new SparkConf()
-      .setAppName(AppName)
-      .setMaster(Master)
-    val sqlContext = SparkSession.builder()
-      .config(conf)
-      .getOrCreate()
-    // manually
-    val customSchema = StructType(Array(
-      StructField("title", StringType, nullable = true),
-      StructField("author", ArrayType.apply(StringType), nullable = true),
-      StructField("year", IntegerType, nullable = true)))
-    // read
-    val df = sqlContext.read
-      .format("com.databricks.spark.xml")
-      .option("rowTag", "article")
-      .schema(customSchema)
-      .load(FILENAME)
-    df.write.parquet("hdfs://cluster01:8020/dblp/dblp-hw4.parquet")
   }
 
   /**

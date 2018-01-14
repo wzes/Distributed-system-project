@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745dfa81-e8a8-428a-9523-d0dcd97a5094" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV3.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/DataHelper.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DC-HW3.iml" afterPath="$PROJECT_DIR$/DC-HW3.iml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/hw3-1552730-db-top100authors.txt" afterPath="$PROJECT_DIR$/hw3-1552730-db-top100authors.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100Keywords.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100Keywords.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +38,8 @@
       <file leaf-file-name="FirstSectionV3.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+            <state relative-caret-position="1557">
+              <caret line="92" column="3" lean-forward="false" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -58,18 +50,48 @@
       <file leaf-file-name="SecondSection.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="66" column="6" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="66" selection-end-column="6" />
+            <state relative-caret-position="322">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstSectionV4.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FirstSectionV2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondSectionV2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="896">
+              <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdSectionV2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="970">
+              <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstSectionV4.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <state relative-caret-position="384">
+              <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -77,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataHelper.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataHelper.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/DataHelper.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
@@ -90,44 +112,8 @@
       <file leaf-file-name="SecondSectionV4.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1398">
-              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-              <folding>
-                <element signature="e#41#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/distributed/application/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThirdSectionV4.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1720">
-              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-              <folding>
-                <element signature="e#41#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondSectionV3.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV3.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="490">
+              <caret line="65" column="68" lean-forward="false" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -138,8 +124,8 @@
       <file leaf-file-name="ThirdSectionV3.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="45" />
+            <state relative-caret-position="556">
+              <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -147,15 +133,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2583">
-                <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="ThirdSectionV4.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="70" column="72" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+              <folding>
+                <element signature="e#41#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -242,12 +227,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala" />
         <option value="$PROJECT_DIR$/hw3-1552730-db-top100authors.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/DataHelper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala" />
       </list>
     </option>
   </component>
@@ -350,6 +335,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,10 +427,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,7 +468,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThirdSectionV4">
+  <component name="RunManager" selected="Application.FirstSectionV4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -687,19 +672,18 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Top100AuthorV2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Top100AuthorV3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FirstSectionV4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SecondSectionV4" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SplitTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Top100AuthorV2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Top100AuthorV3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FirstSectionV4" />
       <item index="4" class="java.lang.String" itemvalue="Application.ThirdSectionV4" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ThirdSectionV4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SecondSectionV4" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FirstSectionV4" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Top100AuthorV3" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Top100AuthorV2" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.FirstSectionV4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ThirdSectionV4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Top100AuthorV3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Top100AuthorV2" />
       </list>
     </recent_temporary>
   </component>
@@ -760,11 +744,12 @@
       <workItem from="1515251742076" duration="1927000" />
       <workItem from="1515277043539" duration="46000" />
       <workItem from="1515848464972" duration="7067000" />
+      <workItem from="1515941310874" duration="1040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153310000" />
+    <option name="totallyTimeSpent" value="154350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,14 +761,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110160425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -797,9 +783,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48908296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42467248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2737968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27700534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1008,22 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw3/Top100AuthorV2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1054,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2116">
           <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="97" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,14 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-556">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="55" column="47" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="55" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1084,46 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="552">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1720">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1398">
-          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="66" column="6" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="66" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="45" />
           <folding>
             <element signature="e#41#80#0" expanded="true" />
           </folding>
@@ -1133,40 +1056,20 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2583">
-            <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <first_editor relative-caret-position="3887">
+            <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/distributed/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
+        <state relative-caret-position="345">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1176,6 +1079,88 @@
         <state relative-caret-position="134">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="65" column="68" lean-forward="false" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1557">
+          <caret line="92" column="3" lean-forward="false" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/ThirdSectionV4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="70" column="72" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSectionV2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/SecondSection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/distributed/application/hw4/FirstSectionV4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#41#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

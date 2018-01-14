@@ -68,7 +68,7 @@ object ThirdSectionV4 {
         AUTHORS.foreach(str => {
           df2 = df2.filter(row => {
             if (row(1) != null) {
-              row(1).toString.contains(str.trim)
+              row(1).toString.toLowerCase.contains(str.trim.toLowerCase())
             } else false
           })
         })
@@ -96,26 +96,5 @@ object ThirdSectionV4 {
     })
     ssc.start()             // Start the computation
     ssc.awaitTermination()  // Wait for the computation to terminate
-  }
-
-  def handleData(): Unit = {
-    val conf = new SparkConf()
-      .setAppName(AppName)
-    val sqlContext = SparkSession.builder()
-      .config(conf)
-      .getOrCreate()
-    // manually
-    val customSchema = StructType(Array(
-      StructField("title", StringType, nullable = true),
-      StructField("author", ArrayType.apply(StringType), nullable = false),
-      StructField("year", IntegerType, nullable = true)))
-
-    // read
-    val df = sqlContext.read
-      .format("com.databricks.spark.xml")
-      .option("rowTag", "article")
-      .schema(customSchema)
-      .load(FILENAME)
-    df.write.parquet("dblp-hw4.parquet")
   }
 }
