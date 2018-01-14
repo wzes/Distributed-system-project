@@ -4,7 +4,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Row, SparkSession}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
@@ -12,11 +12,11 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * @author Create by xuantang
   * @date on 12/26/17
   */
-object SecondSectionV3 {
+object SecondSectionV4 {
   val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
 
   val AppName = "User22Second"
-  val Master = "local[*]"
+  val Master = "local[16]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
   val NumExecutors = "10"
@@ -36,7 +36,7 @@ object SecondSectionV3 {
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
-    //      .setMaster(Master)
+     // .setMaster(Master)
     //      .set("spark.executor.memory", ExecutorMemory)
     //      .set("spark.driver.memory", DriverMemory)
     //      .set("spark.default.parallelism", Parallelism)
@@ -49,12 +49,17 @@ object SecondSectionV3 {
 
     val INPUT = ssc.socketTextStream(hosts, port)
 
+    var df:DataFrame = null
 
     INPUT.foreachRDD(tmp => {
       val strings: Array[String] = tmp.collect()
       if (strings.length > 0) {
         val spark = SparkSession.builder.config(tmp.sparkContext.getConf).getOrCreate()
-        val df = spark.read.parquet(filename.toString())
+        // cached input data
+        if (df == null) {
+          df = spark.read.parquet(filename.toString)
+          df.cache()
+        }
         val AUTHOR = strings(0).substring(strings(0).indexOf("author:") + 7).trim
         val authors = df.filter(row =>
           if (row(1) != null) {

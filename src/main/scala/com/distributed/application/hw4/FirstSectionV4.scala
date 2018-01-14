@@ -3,7 +3,7 @@ package com.distributed.application.hw4
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Dataset, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
@@ -11,17 +11,16 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * @author Create by xuantang
   * @date on 12/26/17
   */
-object FirstSectionV3 {
+object FirstSectionV4 {
   val FILENAME = "dblp-out.xml"
 
   val AppName = "User22First"
-  val Master = "local[*]"
+  val Master = "local[32]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
   val NumExecutors = "10"
   val ExecutorCores = "3"
   val Parallelism = "60"   // num-executors * executor-cores * 2
-
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
     if (args.length < 4) {
@@ -47,11 +46,19 @@ object FirstSectionV3 {
 
     val INPUT = ssc.socketTextStream(hosts, port)
 
+    // var df = null
+    var df:DataFrame = null
+
     INPUT.foreachRDD(rdd => {
       val strings: Array[String] = rdd.collect()
       if (strings.length > 0) {
         val spark = SparkSession.builder.config(rdd.sparkContext.getConf).getOrCreate()
-        val df = spark.read.parquet(filename.toString())
+        // cached input data
+        if (df == null) {
+          df = spark.read.parquet(filename.toString)
+          df.cache()
+        }
+        //val df = spark.read.parquet(filename.toString())
         val AUTHOR = strings(0).substring(strings(0).indexOf("author:") + 7).trim
 
         val df1 = df.filter(row =>
@@ -89,18 +96,18 @@ object FirstSectionV3 {
       .option("rowTag", "article")
       .schema(customSchema)
       .load(FILENAME)
-    df.write.parquet("dblp-hw4.parquet")
+    df.write.parquet("hdfs://cluster01:8020/dblp/dblp-hw4.parquet")
   }
 
   /**
     * //
-    * spark-submit --master spark://148.100.92.156:4477 --num-executors 9 --driver-memory 3G --executor-memory 3G --packages com.databricks:spark-xml_2.11:0.4.1 --class com.distributed.application.hw4.SecondSectionV3 DC-HW4.jar 1 dblp-hw4.parquet 59.110.136.134 10001
+    * spark-submit --master spark://cluster01:7077 --num-executors 10 --executor-cores 12 --driver-memory 2G --executor-memory 2G --class com.distributed.application.hw4.SecondSectionV3 DC-HW4.jar 1 dblp-hw4.parquet 59.110.136.134 10001
     * //
     *
     * --driver-memory 2G
-    * --num-executors 9
-    * --executor-memory 3G
-    * --executor-cores 2
+    * --num-executors 10
+    * --executor-memory 2G
+    * --executor-cores 12
     * --packages com.databricks:spark-xml_2.11:0.4.1
     * --class com.distributed.application.hw4.FirstSectionV3
     * jar

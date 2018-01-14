@@ -46,7 +46,7 @@ object ThirdSectionV3 {
 
     val ssc = new StreamingContext(ss.sparkContext, Seconds(seconds))
 
-    // clique: Wim H. Hesselink, Hans Ulrich Simon[2]
+    // clique: Alain Finkel, Annie Choquet[2]
     val INPUT = ssc.socketTextStream(hosts, port)
 
     INPUT.foreachRDD(tmp => {
