@@ -6,16 +6,25 @@ import java.io.*;
 
 public class Application {
 
-    // You must be do with the xml data
+    /**
+     * You must be do with the xml data
+      */
     public static void main(String[] args) {
-        File inFile = new File("/d1/documents/DistributeCompute/dblp.xml");
-        File outFile = new File("/d1/documents/DistributeCompute/dblp-out.xml");
+        if (args.length < 2) {
+            System.out.println("You need to input args: [seconds] [filename]");
+            return;
+        }
+        String sourceFilename = args[0];
+        String desFilename = args[1];
+        File inFile = new File(sourceFilename);
+        File outFile = new File(desFilename);
 
         try {
             FileReader fileReader = new FileReader(inFile);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             outFile.createNewFile();
+
             FileWriter fileWriter = new FileWriter(outFile);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             String str;
@@ -33,7 +42,6 @@ public class Application {
                 }
                 index++;
             }
-
             bufferedWriter.flush();
             fileReader.close();
             fileWriter.close();
