@@ -19,17 +19,19 @@ object Top100AuthorV3 {
   val FILTER_FIRST = "db/journals/pvldb"
   val FILTER_SECOND = "db/conf/sigmod"
   val FILTER_THIRD = "db/conf/icde"
-  // test
-  val FILTER_FOURTH = "db/journals/acta"
-  val FILTER_FIFTH = "db/journal/acta"
 
   val AppName = "Top100Keywords"
   val Master = "local[*]"
   val Memory = "spark.executor.memory"
 
   def main(args: Array[String]): Unit = {
-    Logger.getLogger("org").setLevel(Level.ERROR)
     val start = System.currentTimeMillis()
+    Logger.getLogger("org").setLevel(Level.ERROR)
+    if (args.length < 1) {
+      println("You need to input args: [filename]")
+      return
+    }
+    val filename = args(0).toString
     val conf = new SparkConf()
       .setAppName(AppName)
       .setMaster("local[*]")
@@ -38,7 +40,7 @@ object Top100AuthorV3 {
       .getOrCreate()
 
     // Read data form parquet
-    val df = ss.read.parquet("file:///d1/documents/DistributeCompute/dblp-top100author.parquet")
+    val df = ss.read.parquet(filename)
 
     // gen sql
     val authors = df.filter(df("year") >= 2000 && (df("url").contains(FILTER_FIRST)

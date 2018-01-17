@@ -1,100 +1,100 @@
-data
-query
-queries
-efficient
-processing
-databases
-database
-system
-search
-web
-xml
-graph
-management
-systems
-distributed
-mining
-networks
-approach
-scalable
-based
-large
-information
-analysis
-streams
-graphs
-framework
-similarity
-relational
-dynamic
-indexing
-optimization
-querying
-fast
-analytics
-matching
-social
-spatial
-stream
-applications
-big
-top-k
-privacy
-probabilistic
-integration
-time
-sql
-parallel
-algorithms
-interactive
-online
-clustering
-evaluation
-performance
-detection
-adaptive
-cloud
-schema
-keyword
-storage
-semantic
-continuous
-index
-engine
-uncertain
-joins
-approximate
-services
-learning
-discovery
-exploration
-network
-mapreduce
-retrieval
-memory
-model
-algorithm
-pattern
-knowledge
-large-scale
-extraction
-support
-complex
-entity
-estimation
-computation
-event
-service
-access
-automatic
-design
-monitoring
-ranking
-answering
-effective
-partitioning
-streaming
-high
-sensor
-temporal
-mobile
+data : 1899
+query : 698
+queries : 576
+efficient : 527
+processing : 514
+databases : 476
+database : 470
+system : 452
+search : 415
+web : 327
+xml : 316
+graph : 300
+management : 294
+systems : 281
+distributed : 279
+mining : 272
+networks : 257
+approach : 246
+scalable : 229
+based : 226
+large : 222
+information : 210
+analysis : 199
+streams : 197
+graphs : 194
+framework : 194
+similarity : 186
+relational : 180
+dynamic : 179
+indexing : 178
+optimization : 177
+querying : 174
+fast : 170
+analytics : 170
+matching : 167
+social : 167
+spatial : 166
+stream : 164
+applications : 159
+big : 156
+top-k : 154
+privacy : 140
+probabilistic : 140
+integration : 133
+time : 132
+sql : 132
+parallel : 132
+algorithms : 131
+interactive : 130
+online : 128
+clustering : 126
+evaluation : 123
+performance : 122
+detection : 122
+adaptive : 121
+cloud : 114
+schema : 111
+keyword : 110
+storage : 110
+semantic : 110
+continuous : 110
+index : 108
+engine : 107
+uncertain : 106
+joins : 102
+approximate : 102
+services : 102
+learning : 102
+discovery : 99
+exploration : 99
+network : 99
+mapreduce : 94
+retrieval : 94
+memory : 91
+model : 90
+algorithm : 90
+pattern : 88
+knowledge : 87
+large-scale : 85
+extraction : 85
+support : 85
+complex : 84
+entity : 84
+estimation : 84
+computation : 84
+event : 83
+service : 83
+access : 82
+automatic : 81
+design : 81
+monitoring : 80
+ranking : 80
+answering : 76
+effective : 76
+partitioning : 75
+streaming : 74
+high : 73
+sensor : 73
+temporal : 72
+mobile : 72

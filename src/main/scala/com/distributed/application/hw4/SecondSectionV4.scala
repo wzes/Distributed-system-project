@@ -15,7 +15,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object SecondSectionV4 {
   val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
 
-  val AppName = "User22Second"
+  val AppName = "SecondSection"
   val Master = "local[16]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
@@ -75,10 +75,12 @@ object SecondSectionV4 {
         val rdd4 = rdd2.map(author => ((AUTHOR, author), 1))
           .reduceByKey(_ + _).sortBy(_._2, ascending = false)
         // count
+        println("======================================================")
         println(rdd2.distinct().count())
         rdd4.collect().foreach(line => {
           println(line._1._2 + " : " + line._2)
         })
+        println("======================================================")
       }
     })
     ssc.start()             // Start the computation

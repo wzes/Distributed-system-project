@@ -15,8 +15,8 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object ThirdSectionV4 {
   val FILENAME = "/d1/documents/DistributeCompute/dblp-out.xml"
 
-  val AppName = "User22Third"
-  val Master = "local[16]"
+  val AppName = "ThirdSection"
+  val Master = "local[*]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
   val NumExecutors = "10"

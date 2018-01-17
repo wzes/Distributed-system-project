@@ -14,7 +14,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object FirstSectionV4 {
   val FILENAME = "dblp-out.xml"
 
-  val AppName = "User22First"
+  val AppName = "FirstSection"
   val Master = "local[*]"
   val ExecutorMemory = "3g"
   val DriverMemory = "2048m"
@@ -33,7 +33,7 @@ object FirstSectionV4 {
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
-      .setMaster(Master)
+//      .setMaster(Master)
 //      .set("spark.executor.memory", ExecutorMemory)
 //      .set("spark.driver.memory", DriverMemory)
 //      .set("spark.default.parallelism", Parallelism)
