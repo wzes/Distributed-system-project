@@ -29,11 +29,11 @@ object FirstSectionV4 {
     }
     val seconds = args(0).toInt
     val filename = args(1).toString
-    val hosts = args(2).toString
+    val host = args(2).toString
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
-//      .setMaster(Master)
+      .setMaster(Master)
 //      .set("spark.executor.memory", ExecutorMemory)
 //      .set("spark.driver.memory", DriverMemory)
 //      .set("spark.default.parallelism", Parallelism)
@@ -44,7 +44,7 @@ object FirstSectionV4 {
 
     val ssc = new StreamingContext(ss.sparkContext, Seconds(seconds))
 
-    val INPUT = ssc.socketTextStream(hosts, port)
+    val INPUT = ssc.socketTextStream(host, port)
 
     // var df = null
     var df:DataFrame = null
@@ -55,7 +55,7 @@ object FirstSectionV4 {
         val spark = SparkSession.builder.config(rdd.sparkContext.getConf).getOrCreate()
         // cached input data
         if (df == null) {
-          df = spark.read.parquet(filename.toString)
+          df = spark.read.parquet(filename)
           df.cache()
         }
         //val df = spark.read.parquet(filename.toString())
@@ -66,12 +66,15 @@ object FirstSectionV4 {
             row(1).toString.toLowerCase.contains(AUTHOR.toLowerCase)
           } else false
         ).orderBy(-df("year")).select("title")
-        df1.cache()
-        println(df1.count())
-        df1.collect().foreach(line => {
+        val rows = df1.collect()
+        println("======================================================")
+        // output count
+        println(rows.length)
+        // detail
+        rows.foreach(line => {
           println(line(0))
         })
-        //df1.foreach(println(_))
+        println("======================================================")
       }
     })
     ssc.start()             // Start the computation

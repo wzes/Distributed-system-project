@@ -31,11 +31,11 @@ object ThirdSectionV4 {
     }
     val seconds = args(0).toInt
     val filename = args(1).toString
-    val hosts = args(2).toString
+    val host = args(2).toString
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
-    //  .setMaster(Master)
+      .setMaster(Master)
     //      .set("spark.executor.memory", ExecutorMemory)
     //      .set("spark.driver.memory", DriverMemory)
     //      .set("spark.default.parallelism", Parallelism)
@@ -47,7 +47,7 @@ object ThirdSectionV4 {
     val ssc = new StreamingContext(ss.sparkContext, Seconds(seconds))
 
     // clique: Wim H. Hesselink, Hans Ulrich Simon[2]
-    val INPUT = ssc.socketTextStream(hosts, port)
+    val INPUT = ssc.socketTextStream(host, port)
 
     var df:DataFrame = null
 
@@ -61,7 +61,7 @@ object ThirdSectionV4 {
         val spark = SparkSession.builder.config(tmp.sparkContext.getConf).getOrCreate()
         // cached input data
         if (df == null) {
-          df = spark.read.parquet(filename.toString)
+          df = spark.read.parquet(filename)
           df.cache()
         }
         var df2 = df
@@ -79,19 +79,21 @@ object ThirdSectionV4 {
         val rdd1 = rdd.map(line => line(1) + " : " +
           line(0).toString.replace("WrappedArray(", "").replace(")", ""))
         rdd1.cache()
-        // check the cooperator paper num
-        if (rdd1.count() >= NUM) {
+        val rows = rdd1.collect()
+        // Check the cooperator paper num
+        println("======================================================")
+        if (rows.length >= NUM) {
           println("YES")
-          // stdout
-          rdd1.collect().foreach(au => {
+          rows.foreach(au => {
             println(au)
           })
         } else {
           println("NO")
-          rdd1.collect().foreach(au => {
+          rows.foreach(au => {
             println(au)
           })
         }
+        println("======================================================")
       }
     })
     ssc.start()             // Start the computation
