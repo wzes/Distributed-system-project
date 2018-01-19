@@ -60,7 +60,7 @@ object SecondSectionV4 {
           df = spark.read.parquet(filename.toString)
           df.cache()
         }
-        val AUTHOR = strings(0).substring(strings(0).indexOf("author:") + 7).trim
+        val AUTHOR = strings(0).substring(strings(0).indexOf("coauthor:") + 9).trim
         val authors = df.filter(row =>
           if (row(1) != null) {
             row(1).toString.toLowerCase.contains(AUTHOR.toLowerCase)

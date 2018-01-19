@@ -149,7 +149,7 @@ File inFile = new File("/d1/documents/DistributeCompute/dblp.xml");
   --driver-memory 2G
   --num-executors 10
   --executor-memory 2G
-  --executor-cores 12
+  --executor-cores 5
   ```
 
 - 结果缓存

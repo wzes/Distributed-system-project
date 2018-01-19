@@ -35,7 +35,6 @@ object ThirdSectionV4 {
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
-      .setMaster(Master)
     //      .set("spark.executor.memory", ExecutorMemory)
     //      .set("spark.driver.memory", DriverMemory)
     //      .set("spark.default.parallelism", Parallelism)
@@ -78,7 +77,7 @@ object ThirdSectionV4 {
 
         val rdd1 = rdd.map(line => line(1) + " : " +
           line(0).toString.replace("WrappedArray(", "").replace(")", ""))
-        rdd1.cache()
+
         val rows = rdd1.collect()
         // Check the cooperator paper num
         println("======================================================")
