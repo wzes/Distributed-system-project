@@ -167,5 +167,18 @@ File inFile = new File("/d1/documents/DistributeCompute/dblp.xml");
 
 ### 注意事项
 - 答案与现场搜的答案不唯一，网站上的结果与本机的结果可能存在差异，网站将标题中中出现的人名也计算在相关论文内，实际上根据作者是搜索不到的。
+
+- 运行命令
+
+  ```
+  spark-submit --master spark://cluster01:7077 --num-executors 10 --driver-memory 2G --executor-memory 2G --class com.distributed.application.hw4.HW4 DC-HW4.jar 1 hdfs://cluster01:8020/dblp/dblp-hw4.parquet 59.110.136.134 10001
+  ```
+
   ​
+
+### 附件
+
+- HW4.scala 为三个部分合一的代码, DataHelper.scala 为数据预处理的代码，其余为各个部分的代码。
+- 答辩ppt
+- 程序运行jar包
 
