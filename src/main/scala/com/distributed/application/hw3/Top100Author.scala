@@ -4,7 +4,7 @@ import java.io.{File, FileWriter}
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.sql.{Row, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -26,9 +26,13 @@ object Top100Author {
     val master = "local[*]"
     val conf = new SparkConf().setAppName(appName).setMaster(master)
     conf.set("spark.executor.memory", "8g")
-    val sc = new SparkContext(conf)
 
-    val sqlContext = new SQLContext(sc)
+    val session: SparkSession = SparkSession
+      .builder
+      .config(conf)
+      .getOrCreate()
+
+    val sqlContext = session.sqlContext
     // manually
     val customSchema = StructType(Array(
       StructField("url", StringType, nullable = true),

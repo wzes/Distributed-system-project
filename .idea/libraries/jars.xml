@@ -9,6 +9,8 @@
       <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-hdfs-2.7.3-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-common-2.7.3-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/spark-sql_2.11-2.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spark-catalyst_2.11-2.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spark-mllib_2.11-2.2.0-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file:///opt/current-spark/jars" recursive="false" />
     <jarDirectory url="file:///opt/current-spark/jars" recursive="false" type="SOURCES" />

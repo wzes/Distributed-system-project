@@ -97,4 +97,203 @@ Panos K. Chrysanthis : 31
 Nan Tang 0001 : 31
 David Maier 0001 : 31
 Chen Li 0001 : 30
+Zhenjie Zhang : 30Divesh Srivastava : 143
+Beng Chin Ooi : 91
+Jiawei Han 0001 : 90
+Kian-Lee Tan : 86
+Surajit Chaudhuri : 85
+Xuemin Lin : 85
+Jeffrey Xu Yu : 83
+Samuel Madden : 83
+Lei Chen 0002 : 81
+Philip S. Yu : 71
+Haixun Wang : 69
+Elke A. Rundensteiner : 68
+H. V. Jagadish : 66
+Mohamed F. Mokbel : 65
+Jeffrey F. Naughton : 64
+Nick Koudas : 64
+Gautam Das : 63
+Christian S. Jensen : 62
+Michael J. Franklin : 61
+Donald Kossmann : 61
+Anastasia Ailamaki : 60
+Johannes Gehrke : 60
+Guoliang Li 0001 : 60
+Jignesh M. Patel : 57
+Anthony K. H. Tung : 55
+Divyakant Agrawal : 55
+Wolfgang Lehner : 54
+Nikos Mamoulis : 52
+Joseph M. Hellerstein : 52
+Ihab F. Ilyas : 51
+Wenfei Fan : 51
+Hector Garcia-Molina : 51
+Amol Deshpande : 51
+Xiaokui Xiao : 50
+Amr El Abbadi : 49
+Gustavo Alonso : 49
+Yufei Tao : 48
+Tova Milo : 48
+Magdalena Balazinska : 48
+Dan Suciu : 48
+Jian Pei : 47
+Jun Yang 0001 : 47
+Thomas Neumann 0001 : 46
+Xiaofang Zhou : 46
+Shivnath Babu : 45
+Xifeng Yan : 44
+Laks V. S. Lakshmanan : 44
+Volker Markl : 43
+Tim Kraska : 43
+Alfons Kemper : 43
+Michael Stonebraker : 43
+Christoph Koch 0001 : 42
+Christopher Ré : 42
+Neoklis Polyzotis : 41
+AnHai Doan : 41
+Raghu Ramakrishnan : 41
+Gerhard Weikum : 41
+Gao Cong : 41
+Christos Faloutsos : 40
+Feifei Li 0001 : 40
+Minos N. Garofalakis : 40
+Graham Cormode : 39
+Wenjie Zhang : 39
+Vivek R. Narasayya : 39
+Alon Y. Halevy : 39
+Jianhua Feng : 38
+Renée J. Miller : 38
+Sihem Amer-Yahia : 38
+Walid G. Aref : 37
+Ashraf Aboulnaga : 36
+Jennifer Widom : 36
+Carlo Zaniolo : 36
+Lu Qin : 36
+Bin Cui 0001 : 35
+Mourad Ouzzani : 35
+Ying Zhang 0001 : 35
+Wei Wang 0011 : 35
+Dimitris Papadias : 35
+Sourav S. Bhowmick : 34
+Hans-Peter Kriegel : 34
+Ugur Çetintemel : 34
+Charu C. Aggarwal : 34
+M. Tamer Özsu : 34
+Paolo Papotti : 34
+Reynold Cheng : 33
+Cong Yu 0001 : 33
+Stanley B. Zdonik : 33
+Jianzhong Li : 32
+Juliana Freire : 32
+Raghav Kaushik : 32
+Stratos Idreos : 32
+Kevin Chen-Chuan Chang : 32
+Man Lung Yiu : 31
+Gang Chen 0001 : 31
+Xin Luna Dong : 31
+Panos K. Chrysanthis : 31
+Nan Tang 0001 : 31
+David Maier 0001 : 31
+Chen Li 0001 : 30
 Zhenjie Zhang : 30
+Divesh Srivastava
+Beng Chin Ooi
+Jiawei Han 0001
+Kian-Lee Tan
+Xuemin Lin
+Surajit Chaudhuri
+Jeffrey Xu Yu
+Samuel Madden
+Lei Chen 0002
+Philip S. Yu
+Haixun Wang
+Elke A. Rundensteiner
+H. V. Jagadish
+Mohamed F. Mokbel
+Nick Koudas
+Jeffrey F. Naughton
+Gautam Das
+Christian S. Jensen
+Donald Kossmann
+Michael J. Franklin
+Anastasia Ailamaki
+Guoliang Li 0001
+Johannes Gehrke
+Jignesh M. Patel
+Divyakant Agrawal
+Anthony K. H. Tung
+Wolfgang Lehner
+Joseph M. Hellerstein
+Nikos Mamoulis
+Hector Garcia-Molina
+Amol Deshpande
+Ihab F. Ilyas
+Wenfei Fan
+Xiaokui Xiao
+Gustavo Alonso
+Amr El Abbadi
+Dan Suciu
+Yufei Tao
+Magdalena Balazinska
+Tova Milo
+Jun Yang 0001
+Jian Pei
+Xiaofang Zhou
+Thomas Neumann 0001
+Shivnath Babu
+Xifeng Yan
+Laks V. S. Lakshmanan
+Volker Markl
+Alfons Kemper
+Tim Kraska
+Michael Stonebraker
+Christoph Koch 0001
+Christopher Ré
+Neoklis Polyzotis
+AnHai Doan
+Gao Cong
+Gerhard Weikum
+Raghu Ramakrishnan
+Feifei Li 0001
+Christos Faloutsos
+Minos N. Garofalakis
+Wenjie Zhang
+Graham Cormode
+Alon Y. Halevy
+Vivek R. Narasayya
+Jianhua Feng
+Sihem Amer-Yahia
+Renée J. Miller
+Walid G. Aref
+Carlo Zaniolo
+Jennifer Widom
+Ashraf Aboulnaga
+Lu Qin
+Wei Wang 0011
+Mourad Ouzzani
+Bin Cui 0001
+Ying Zhang 0001
+Dimitris Papadias
+M. Tamer Özsu
+Sourav S. Bhowmick
+Hans-Peter Kriegel
+Ugur Çetintemel
+Paolo Papotti
+Charu C. Aggarwal
+Cong Yu 0001
+Reynold Cheng
+Stanley B. Zdonik
+Jianzhong Li
+Stratos Idreos
+Kevin Chen-Chuan Chang
+Raghav Kaushik
+Juliana Freire
+Gang Chen 0001
+Xin Luna Dong
+Man Lung Yiu
+Panos K. Chrysanthis
+David Maier 0001
+Nan Tang 0001
+Flip Korn
+Ioana Manolescu

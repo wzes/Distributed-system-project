@@ -33,6 +33,7 @@ object HW4 {
     val port = args(3).toInt
     val conf = new SparkConf()
       .setAppName(AppName)
+      .setMaster(Master)
 
     val ss = SparkSession.builder
       .config(conf)
